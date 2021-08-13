@@ -1,0 +1,29 @@
+.division{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content:center;
+
+    &__segunda{
+        margin: auto;
+        padding: 0.5em;
+    }
+    
+    &__tercera{
+        background-color: $colorDivision;
+        border-radius: 0.3em;
+        width: 90%;
+        margin: auto;
+        padding: 0.2em;
+    }
+ 
+}
+
+.imagenAutor{
+    margin:auto;
+    display:block;
+    height: 22em;
+    width: 18em;
+    padding: 1.5em;
+    border-radius: 1.8em;
+}

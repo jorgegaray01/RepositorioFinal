@@ -1,0 +1,37 @@
+h1{
+    color: $colorTitulo;
+    font-style: $estilo;
+    font-weight: $estilosDos;
+    font-family: $tipoLetra;
+    text-shadow: 0.01em 0.04em 0.1em $colorLink;
+}
+
+h2{
+    color: $colorTitulo2;
+    text-decoration: wavy;
+    font-size: 1.6em;
+    padding: 0.5em;
+    margin: auto;
+    font-family: $tipoLetra;
+    text-shadow: 0.05em 0.04em 0.15em $colorLink;
+    font-weight: $estilosDos;
+}
+
+h3{
+    color: $colorTitulo3;
+    margin: auto;
+    padding: 0.3em;
+    font-size: 1.0625em;
+    font-weight: $estilosDos;
+}
+
+
+
+p{
+    color: $colorParrafo;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 0.5em;
+    font-size: 0.9em;
+}

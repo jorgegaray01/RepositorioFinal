@@ -1,0 +1,52 @@
+.wrapperDos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(auto);
+    grid-gap: 1.875em;
+}
+
+.wrapperDos div{
+    background-color: $colorWrapper2;
+    width: 80%;
+    border-radius: 0.2em;
+    margin: auto
+}
+
+@mixin imagenes ($flotacion, $margen){
+    float: $flotacion;
+    margin: $margen;
+}
+
+.imagenIzquierda{
+    @include imagenes(left,0.3em ); 
+    height: 20.5em;
+    width: 17em;   
+}
+
+.imagenIzquierdaDos{
+    @include imagenes(left,0.3em );    
+    height: 18em;
+    width: 24em;    
+    border: 0.1em solid $colorLinkHover;
+}
+
+.imagenDerecha{
+    @extend .imagenIzquierda;
+    float: right;    
+}
+
+p span {
+    display: block;
+}
+
+ul{
+    
+    text-align:center;
+    
+}
+
+li{
+    display:block;
+    font-size: 0.9em;
+    color: $colorParrafo;
+}

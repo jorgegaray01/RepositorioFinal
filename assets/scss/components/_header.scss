@@ -1,0 +1,52 @@
+.cabecera{
+    background: -webkit-radial-gradient( 30.75em 4.375em, circle farthest-side, rgb(211, 211, 211), rgb(186, 189, 168), rgb(231, 230, 221) );
+    &__titulo{
+        color:$colorCabecera;
+        font-style: $estilo;
+        font-weight: $estilosDos;
+        font-family: $tipoLetra;
+        text-shadow: 0.01em 0.04em 0.1em $colorLink;
+        font-size: 2em;
+        text-align: center;
+    }
+}
+
+.navegador{
+    transition-duration: 0.8s;
+    padding: 0.1em;
+    justify-content: center;
+    
+    &__lista{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__item{
+        color: $colorItem;
+        line-height: 1em;
+        margin-left: 0.9em;
+        background-color: rgb(85, 83, 82);
+        border-radius: 0.5em;
+    }
+    
+    &__link{
+        display: block;
+        color:$colorLink;
+        text-align: center;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 0.4em;
+    }
+    
+    &__link:hover{
+        color: $colorLinkHover;
+        text-decoration: none;
+    }
+
+    &__link:active{
+        color:$colorLinkActive;
+        text-decoration: none;
+    }
+
+}

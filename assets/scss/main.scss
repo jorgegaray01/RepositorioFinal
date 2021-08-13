@@ -1,0 +1,13 @@
+@import "utilities/colores";
+@import "utilities/tipografia";
+
+@import "pages/index";
+@import "pages/autor";
+@import "pages/peliculas_bibliografia";
+@import "pages/contacto";
+@import "components/components";
+
+*{
+    margin: 0;
+    padding: 0;
+}

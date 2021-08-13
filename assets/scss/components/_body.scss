@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(0.25turn, rgb(247, 247, 227), rgb(221, 221, 209), rgb(206, 206, 184));
+    background-size: 100% 100%; 
+}
+
+img,h3{
+    transition: 0.8s;
+}
+
+.scalar:hover {
+    transform: scale(1.2);    
+}
+
+.scalarSegundo:hover {
+    transform: scale(1.1);    
+}
+
+.scalarTercero:hover {
+    transform: translateY(-0.5px) rotateX(0.07turn);   
+}
+
+.scalarTitulo:hover {
+    transform: scale(1.2);
+    cursor: pointer;    
+}
