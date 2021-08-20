@@ -258,7 +258,7 @@ article {
     justify-content: center; }
 
 .iconoColor, .iconoColorDos {
-  font-size: 3em;
+  font-size: 1.5em;
   color: #0c0c0c;
   vertical-align: bottom; }
 
@@ -268,6 +268,13 @@ article {
 .divisionPie {
   justify-content: center;
   text-align: center; }
+
+footer p {
+  color: white; }
+
+.parrafoPie {
+  font-size: 1em;
+  color: white; }
 
 body {
   background: linear-gradient(0.25turn, #f7f7e3, #ddddd1, #ceceb8);

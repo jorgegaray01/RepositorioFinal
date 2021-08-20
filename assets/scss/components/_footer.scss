@@ -10,7 +10,7 @@
 }
 
 .iconoColor{
-    font-size: 3em;
+    font-size: 1.5em;
     color: $colorNegro;
     vertical-align: bottom;
 }
@@ -24,4 +24,13 @@
     
     justify-content: center;
     text-align: center;
+}
+
+footer p{
+    color: $colorBlanco;
+}
+
+.parrafoPie{
+    font-size: 1em;
+    color: $colorBlanco;
 }
