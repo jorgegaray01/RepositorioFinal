@@ -2,7 +2,7 @@
     background: -webkit-radial-gradient( 30.75em 4.375em, circle farthest-side, rgb(163, 162, 157), rgb(136, 139, 113), rgb(163, 162, 157) );
     &__parrafo{
         font-size: 1em;
-        color:$colorPie;
+        color:$colorBlanco;
         font-style: $estilo; 
         text-align: justify;
         justify-content: center;
@@ -11,13 +11,13 @@
 
 .iconoColor{
     font-size: 3em;
-    color: $colorIcono;
+    color: $colorNegro;
     vertical-align: bottom;
 }
 
 .iconoColorDos{
     @extend .iconoColor;
-    color: $colorIconoDos;    
+    color: $colorBlanco;    
 }
 
 .divisionPie{

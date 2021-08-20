@@ -1,5 +1,5 @@
 .primerH2{
-    color: $colorPrimerH2;
+    color: $colorAzulOscuro;
     text-decoration: underline;
     font-size: 1.5em;
     text-align: center;
@@ -13,8 +13,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 20em;
-    grid-template-areas: "area1 area2 area3";            
+    grid-template-rows: 20em;               
 }
 
 @mixin cajas ($colorFondo, $orientacion){
@@ -23,7 +22,7 @@
 }
 
 .cajaUno{ 
-    @include cajas($colorCaja,inline-block );   
+    @include cajas($colorGris,inline-block );   
     grid-area: area1;
     flex-direction: row;
     border-radius: 0.5em;

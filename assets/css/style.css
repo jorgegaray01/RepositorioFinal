@@ -12,8 +12,7 @@
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 20em;
-  grid-template-areas: "area1 area2 area3"; }
+  grid-template-rows: 20em; }
 
 .cajaUno {
   background-color: #879482;
@@ -61,15 +60,15 @@
 .imagenIzquierda, .imagenDerecha {
   float: left;
   margin: 0.3em;
-  height: 20.5em;
-  width: 17em; }
+  height: 22.5em;
+  width: 19em; }
 
 .imagenIzquierdaDos {
   float: left;
   margin: 0.3em;
   height: 18em;
   width: 24em;
-  border: 0.1em solid black; }
+  border: 0.1em solid white; }
 
 .imagenDerecha {
   float: right; }
@@ -83,20 +82,20 @@ ul {
 li {
   display: block;
   font-size: 0.9em;
-  color: #210a36; }
+  color: #211957; }
 
 legend {
-  color: black;
+  color: #0c0c0c;
   font-size: 1.4em; }
 
 .bigicon {
-  font-size: 35px;
-  color: black; }
+  font-size: 2.1875em;
+  color: #0c0c0c; }
 
 .divisionFormulario {
   display: flex;
   margin: auto;
-  padding: 10px;
+  padding: 0.625em;
   text-align: center;
   justify-content: center; }
 
@@ -126,7 +125,7 @@ legend {
     height: 13,75em; }
   .primerParrafo {
     font-size: 0.6em;
-    color: #fff9ff;
+    color: white;
     font-style: italic;
     text-align: justify;
     margin: auto; }
@@ -135,7 +134,7 @@ legend {
     height: 11em;
     width: 17em;
     margin: 0.3em;
-    border: 0.1em solid black; } }
+    border: 0.1em solid white; } }
 
 @media only screen and (min-width: 576px) {
   h1 {
@@ -151,7 +150,7 @@ legend {
     font-size: 0.75em; }
   .primerParrafo {
     font-size: 0.8em;
-    color: #fff9ff;
+    color: white;
     font-style: italic;
     text-align: justify;
     margin: auto; } }
@@ -170,7 +169,7 @@ legend {
     font-size: 0.98em; }
   .primerParrafo {
     font-size: 0.9em;
-    color: #fff9ff;
+    color: white;
     font-style: italic;
     text-align: justify;
     margin: auto; } }
@@ -195,7 +194,7 @@ legend {
     display: flex;
     justify-content: center; }
   .navegador__item {
-    color: #160244;
+    color: #211957;
     line-height: 1em;
     margin-left: 0.9em;
     background-color: #555352;
@@ -208,7 +207,7 @@ legend {
     text-decoration: none;
     padding: 0.4em; }
   .navegador__link:hover {
-    color: black;
+    color: #0c0c0c;
     text-decoration: none; }
   .navegador__link:active {
     color: #270303;
@@ -243,25 +242,28 @@ p {
   text-indent: 2em;
   text-align: justify;
   line-height: 1.5em;
-  padding: 0.5em;
-  font-size: 0.9em; }
+  padding: 0.9em;
+  font-size: 1em; }
+
+article {
+  font-size: 1em; }
 
 .pie {
   background: -webkit-radial-gradient(30.75em 4.375em, circle farthest-side, #a3a29d, #888b71, #a3a29d); }
   .pie__parrafo {
     font-size: 1em;
-    color: #fff9ff;
+    color: white;
     font-style: italic;
     text-align: justify;
     justify-content: center; }
 
 .iconoColor, .iconoColorDos {
   font-size: 3em;
-  color: #160116;
+  color: #0c0c0c;
   vertical-align: bottom; }
 
 .iconoColorDos {
-  color: #fffbff; }
+  color: white; }
 
 .divisionPie {
   justify-content: center;
@@ -275,7 +277,7 @@ img, h3 {
   transition: 0.8s; }
 
 .scalar:hover {
-  transform: scale(1.2); }
+  transform: scale(1.03); }
 
 .scalarSegundo:hover {
   transform: scale(1.1); }

@@ -6,7 +6,7 @@
 }
 
 .wrapperDos div{
-    background-color: $colorWrapper2;
+    background-color: $colorCrema;
     width: 80%;
     border-radius: 0.2em;
     margin: auto
@@ -19,15 +19,15 @@
 
 .imagenIzquierda{
     @include imagenes(left,0.3em ); 
-    height: 20.5em;
-    width: 17em;   
+    height: 22.5em;
+    width: 19em;   
 }
 
 .imagenIzquierdaDos{
     @include imagenes(left,0.3em );    
     height: 18em;
     width: 24em;    
-    border: 0.1em solid $colorLinkHover;
+    border: 0.1em solid $colorBlanco;
 }
 
 .imagenDerecha{
@@ -48,5 +48,5 @@ ul{
 li{
     display:block;
     font-size: 0.9em;
-    color: $colorParrafo;
+    color: $colorAzul;
 }
