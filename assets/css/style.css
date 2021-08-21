@@ -85,12 +85,12 @@ li {
   color: #211957; }
 
 legend {
-  color: #0c0c0c;
+  color: rgba(27, 22, 22, 0.836);
   font-size: 1.4em; }
 
 .bigicon {
   font-size: 2.1875em;
-  color: #0c0c0c; }
+  color: rgba(27, 22, 22, 0.836); }
 
 .divisionFormulario {
   display: flex;
@@ -207,7 +207,7 @@ legend {
     text-decoration: none;
     padding: 0.4em; }
   .navegador__link:hover {
-    color: #0c0c0c;
+    color: rgba(27, 22, 22, 0.836);
     text-decoration: none; }
   .navegador__link:active {
     color: #270303;
@@ -221,7 +221,7 @@ h1 {
   text-shadow: 0.01em 0.04em 0.1em white; }
 
 h2 {
-  color: #0c0c0c;
+  color: rgba(27, 22, 22, 0.836);
   text-decoration: wavy;
   font-size: 1.6em;
   padding: 0.5em;
@@ -259,7 +259,7 @@ article {
 
 .iconoColor, .iconoColorDos {
   font-size: 1.5em;
-  color: #0c0c0c;
+  color: rgba(27, 22, 22, 0.836);
   vertical-align: bottom; }
 
 .iconoColorDos {
@@ -276,8 +276,11 @@ footer p {
   font-size: 1em;
   color: white; }
 
+.colorBarraPie {
+  background-color: rgba(27, 22, 22, 0.836); }
+
 body {
-  background: linear-gradient(0.25turn, #f7f7e3, #ddddd1, #ceceb8);
+  background: linear-gradient(0.25turn, #d1d1b8, #b1b193, #dbdb97);
   background-size: 100% 100%; }
 
 img, h3 {
