@@ -35,6 +35,12 @@ footer p{
     color: $colorBlanco;
 }
 
+.parrafoPieDos{
+    @extend .parrafoPie;
+    font-size: 2em;
+    text-shadow: none;
+}
+
 .colorBarraPie{
     background-color: $colorNegro;
 }

@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 </head>
@@ -20,24 +23,24 @@
     <header class="cabecera">
         <nav class="navegador">
             <ul class="navegador__lista">
-                <li class="navegador__item"><a href="../index.html" class="navegador__link">HOME</a></li>
-                <li class="navegador__item"><a href="autor.html" class="navegador__link">AUTOR</a></li>
-                <li class="navegador__item"><a href="bibliografia.html" class="navegador__link">BIBLIOGRAFIA</a></li>
-                <li class="navegador__item"><a href="peliculas.html" class="navegador__link">PELICULAS</a></li>
-                <li class="navegador__item"><a href="contacto.html" class="navegador__link">CONTACTO</a></li>
+                <li class="navegador__item transicionNav"><a href="../index.html" class="navegador__link">HOME</a></li>
+                <li class="navegador__item transicionNav"><a href="autor.html" class="navegador__link">AUTOR</a></li>
+                <li class="navegador__item transicionNav"><a href="bibliografia.html" class="navegador__link">BIBLIOGRAFIA</a></li>
+                <li class="navegador__item transicionNav"><a href="peliculas.html" class="navegador__link">PELICULAS</a></li>
+                <li class="navegador__item transicionNav"><a href="contacto.html" class="navegador__link">CONTACTO</a></li>
             </ul>
         </nav>        
     </header>    
    
     <main>
-        <h1 class="cabecera__titulo">Formulario de contacto</h1>     
+        <h1 class="cabecera__titulo scalar">Formulario de contacto</h1>     
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="well well-sm">
                         <form class="form-horizontal" method="post">
                             <fieldset>
-                                <legend class="text-center"><i class="material-icons iconoColor">description</i>Ingresa tus datos Personales</legend>
+                                <legend class="text-center scalar"><i class="material-icons iconoColor">description</i>Ingresa tus datos Personales</legend>
         
                                 <div class="form-group divisionFormulario">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -48,12 +51,12 @@
                                 <div class="form-group divisionFormulario">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                     <div class="col-md-8">
-                                        <input id="apellido" name="name" type="text" placeholder="Apellido" class="form-control" required="true">
+                                        <input id="apellido" name="apellido" type="text" placeholder="Apellido" class="form-control" required="true">
                                     </div>
                                 </div>
         
                                 <div class="form-group divisionFormulario">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-square bigicon"></i></span>
                                     <div class="col-md-8">
                                         <input id="email" name="email" type="text" placeholder="E-mail" class="form-control" required="true">
                                     </div>
@@ -75,8 +78,8 @@
 
                                 <div class="form-group divisionFormulario">
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
-                                        <button type="reset" class="btn btn-dark btn-lg">Borrar</button>
+                                        <button type="submit" class="btn btn-dark btn-lg transicionBoton">Enviar</button>
+                                        <button type="reset" class="btn btn-dark btn-lg transicionBoton">Borrar</button>
                                     </div>
                                 </div>
                             </fieldset>
@@ -94,7 +97,7 @@
                 <div class="container divisionPie">
                     <div class="row justify-content-center">
                         <div class="col-lg-6">
-                            <h2>Suscribete a nuestro Newsletter</h2>
+                            <h2 class="parrafoPieDos">Suscribete a nuestro Newsletter</h2>
                             <form action="" method="post">
                                 <input type="email" name="email"><input type="submit" value="Subscribe">
                             </form>

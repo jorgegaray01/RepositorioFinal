@@ -1,7 +1,7 @@
 .primerH2 {
   color: #021727;
   text-decoration: underline;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   padding: 0.5em; }
 
@@ -180,9 +180,9 @@ legend {
     color: #680702;
     font-style: italic;
     font-weight: bold;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+    font-family: "Dancing Script", cursive;
     text-shadow: 0.01em 0.04em 0.1em white;
-    font-size: 2em;
+    font-size: 2.8em;
     text-align: center; }
 
 .navegador {
@@ -223,10 +223,10 @@ h1 {
 h2 {
   color: rgba(27, 22, 22, 0.836);
   text-decoration: wavy;
-  font-size: 1.6em;
+  font-size: 2em;
   padding: 0.5em;
   margin: auto;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-family: "Dancing Script", cursive;
   text-shadow: 0.05em 0.04em 0.15em white;
   font-weight: bold; }
 
@@ -272,9 +272,13 @@ article {
 footer p {
   color: white; }
 
-.parrafoPie {
+.parrafoPie, .parrafoPieDos {
   font-size: 1em;
   color: white; }
+
+.parrafoPieDos {
+  font-size: 2em;
+  text-shadow: none; }
 
 .colorBarraPie {
   background-color: rgba(27, 22, 22, 0.836); }
@@ -298,6 +302,17 @@ img, h3 {
 .scalarTitulo:hover {
   transform: scale(1.2);
   cursor: pointer; }
+
+.transicionNav:hover {
+  transform: scale(1.15, 1.15);
+  cursor: pointer;
+  background-color: #8d8278; }
+
+.transicionBoton:hover {
+  transform: scale(1.05, 1.05);
+  cursor: pointer;
+  background-color: white;
+  color: rgba(27, 22, 22, 0.836); }
 
 * {
   margin: 0;
