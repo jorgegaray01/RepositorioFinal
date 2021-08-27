@@ -99,6 +99,9 @@ legend {
   text-align: center;
   justify-content: center; }
 
+.imagen_Error {
+  width: 100%; }
+
 @media only screen and (max-width: 576px) {
   h1 {
     margin: auto;
